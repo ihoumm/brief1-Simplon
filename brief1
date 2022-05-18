@@ -45,7 +45,7 @@ public class Main {
 				
 				}
 			
-			if (count == 5) {
+			if (count == 4) {
 
 				do {
 					System.out.print("Number of hours worked per week: ");
@@ -73,7 +73,7 @@ public class Main {
 				}
 				System.out.println("Your Weekly Salary Amount is " + result + " DH");
 
-			} else if (operationType == 6) {
+			} else if (operationType == 5) {
 
 				do {
 					System.out.print("Number of hours worked per month: ");
@@ -101,7 +101,7 @@ public class Main {
 				}
 				System.out.println("Your  Monthly  Salary is " + result + " DH");
 
-			} else {System.out.println("Error operataion doesn't exist!");}
+			}
 
 		} while (true);
 
